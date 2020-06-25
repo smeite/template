@@ -1,0 +1,13 @@
+// 设置media
+@media screen and (max-width: 480px) {
+  .el-dialog__wrapper .el-dialog {
+    width: 95% !important;
+  }
+  .el-dialog__wrapper .el-dialog .el-dialog__body {
+    overflow: auto
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .el-message { min-width: 300px !important; }
+}
